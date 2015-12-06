@@ -27,10 +27,8 @@ html, body {
 	height: 100%;
 
 	/*background:#165019;*/
-	background:url("media/wallpaper.jpg");
+	background-image:url("media/wallpaper.jpg");
 	background-size:cover-container;
-
-
 }
 body {
 	color: #fff;

@@ -26,7 +26,10 @@ a, a:focus, a:hover {
 html, body {
 	height: 100%;
 
-	background:#165019;
+	/*background:#165019;*/
+	background:url("media/wallpaper.jpg");
+	background-size:cover-container;
+
 
 }
 body {
@@ -47,7 +50,7 @@ body {
     width: 275px;
     height: 400px;
     /* you need to match the shadow color to your background or image border for the desired effect*/
-    box-shadow: 0 0 8px 8px #165019 inset;
+    box-shadow: 0 0 8px 8px #305DD0 inset;
 }
 
 .site-wrapper {
@@ -162,4 +165,9 @@ body {
 	.masthead,  .cover-container {
 		width: 700px;
 	}
+}
+
+.snow {
+	background-image:url(/media/wallpaper.jpg);
+	background-size: 100% 10o%;
 }

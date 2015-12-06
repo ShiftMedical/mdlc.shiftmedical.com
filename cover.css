@@ -25,21 +25,30 @@ a, a:focus, a:hover {
 
 html, body {
 	height: 100%;
-	/*background-color: #333;*/
-	background: #606c88;
-	/* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #606c88, #3f4c6b);
-	/* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #606c88, #3f4c6b);
-	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	background:#165019;
+
 }
 body {
 	color: #fff;
 	text-align: center;
-	/*text-shadow: 0 1px 3px rgba(0,0,0,.5);*/
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
+
+.panel {
+	background-color: rgba(245,245,245,0.1)
+}
+
+.image-blurred-edge {
+    background-image: url('media/coffeecat.gif');
+		background-size:cover;
+		align:center;
+    width: 275px;
+    height: 400px;
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 8px 8px #165019 inset;
+}
 
 .site-wrapper {
 	display: table;
@@ -53,10 +62,6 @@ body {
 .site-wrapper-inner {
 	display: table-cell;
 	vertical-align: top;
-}
-.cover-container {
-	margin-right: auto;
-	margin-left: auto;
 }
 
 /* Padding for spacing */
@@ -154,7 +159,7 @@ body {
 	}
 }
 @media (min-width: 992px) {
-	.masthead, .mastfoot, .cover-container {
+	.masthead,  .cover-container {
 		width: 700px;
 	}
 }

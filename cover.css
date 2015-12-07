@@ -34,6 +34,12 @@ html, body {
 	background-image:url("media/wallpaper.jpg");
 	background-size:cover;
 }
+
+#success {
+	background-image:url("media/success-background.jpg");
+	/*background-size:;*/
+}
+
 body {
 	color: #fff;
 	text-align: center;

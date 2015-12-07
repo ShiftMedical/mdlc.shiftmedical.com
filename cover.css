@@ -9,19 +9,12 @@ a, a:focus, a:hover {
 	color: #fff;
 }
 
-/* Custom default button */
-
-.btn-default, .btn-default:hover, .btn-default:focus {
-	color: #333;
-	text-shadow: none;
-	/* Prevent inheritence from `body` */
-	background-color: #fff;
-	border: 1px solid #fff;
-}
 
 /*
  * Base structure
  */
+
+
 
 html, body {
 	height: 100%;
@@ -29,18 +22,17 @@ html, body {
 	padding: 0;
 	margin: 0;
 	border: 0;
+	overflow-x: hidden;
 
-	background:#305DD0;
+	/*background:#305DD0;*/
 	/* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #305DD0, #224294);
+	/*background: -webkit-linear-gradient(to left, #305DD0, #224294);*/
 	/* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #305DD0, #224294);
+	/*background: linear-gradient(to left, #305DD0, #224294);*/
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 	background-image:url("media/wallpaper.jpg");
-	background-position:10;
-	background-size:cover-container;
-
+	background-size:cover;
 }
 body {
 	color: #fff;
@@ -59,24 +51,31 @@ body {
 		align:center;
     width: 275px;
     height: 400px;
-    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 8px 8px #305DD0 inset;
+		-webkit-box-shadow: 0 0 8px 8px #305DD0 inset;
+		-moz-box-shadow: 0 0 8px 8px #305DD0 inset;
+}
+
+.image-blurred-edge-xs {
+    background-image: url('media/coffeecat.gif');
+		background-size:cover;
+		align:center;
+    /*width: auto%;*/
+    height: 400px;
     box-shadow: 0 0 8px 8px #305DD0 inset;
 		-webkit-box-shadow: 0 0 8px 8px #305DD0 inset;
 		-moz-box-shadow: 0 0 8px 8px #305DD0 inset;
 }
 
 .site-wrapper {
-	display: table;
 	width: 100%;
-	height: 100%;
-	/* For at least Firefox */
+	/*height: 100%;*/
 	min-height: 100%;
-	-webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
-	-moz-box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
-	box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
+	-webkit-box-shadow: inset 0px 0px 200px rgba(0, 0, 0, .5);
+	-moz-box-shadow: inset 0 0 200px rgba(0, 0, 0, .5);
+	box-shadow: inset 0 0 200px rgba(0, 0, 0, .5);
 }
 .site-wrapper-inner {
-	display: table-cell;
 	vertical-align: top;
 }
 
@@ -106,7 +105,6 @@ body {
 	font-size: 16px;
 	font-weight: bold;
 	color: #fff;
-	/* IE8 proofing */
 	color: rgba(255, 255, 255, .75);
 	border-bottom: 2px solid transparent;
 }
@@ -146,7 +144,6 @@ body {
 
 .mastfoot {
 	color: #999;
-	/* IE8 proofing */
 	color: rgba(255, 255, 255, .5);
 }
 
@@ -155,7 +152,6 @@ body {
  */
 
 @media (min-width: 768px) {
-	/* Pull out the header and footer */
 	.masthead {
 		position: fixed;
 		top: 0;
@@ -164,23 +160,15 @@ body {
 		position: fixed;
 		bottom: 0;
 	}
-	/* Start the vertical centering */
 	.site-wrapper-inner {
 		vertical-align: middle;
 	}
-	/* Handle the widths */
 	.masthead, .mastfoot, .cover-container {
 		width: 100%;
-		/* Must be percentage or pixels for horizontal alignment */
 	}
 }
 @media (min-width: 992px) {
 	.masthead,  .cover-container {
 		width: 700px;
 	}
-}
-
-.snow {
-	background-image:url(/media/wallpaper.jpg);
-	background-size: 100% 10o%;
 }

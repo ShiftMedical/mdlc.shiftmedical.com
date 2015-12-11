@@ -57,9 +57,9 @@ body {
 		align:center;
     width: 275px;
     height: 400px;
-    box-shadow: 0 0 8px 8px #305DD0 inset;
-		-webkit-box-shadow: 0 0 8px 8px #305DD0 inset;
-		-moz-box-shadow: 0 0 8px 8px #305DD0 inset;
+    box-shadow: 0 0 8px 8px #2F59C7 inset;
+		-webkit-box-shadow: 0 0 8px 8px #2F59C7 inset;
+		-moz-box-shadow: 0 0 8px 8px #2F59C7 inset;
 }
 
 .image-blurred-edge-xs {
@@ -68,9 +68,9 @@ body {
 		align:center;
     /*width: auto%;*/
     height: 400px;
-    box-shadow: 0 0 8px 8px #305DD0 inset;
-		-webkit-box-shadow: 0 0 8px 8px #305DD0 inset;
-		-moz-box-shadow: 0 0 8px 8px #305DD0 inset;
+    box-shadow: 0 0 8px 8px #2950B6 inset;
+		-webkit-box-shadow: 0 0 8px 8px #2950B6 inset;
+		-moz-box-shadow: 0 0 8px 8px #2950B6 inset;
 }
 
 .site-wrapper {

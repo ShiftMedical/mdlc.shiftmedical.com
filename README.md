@@ -1,2 +1,2 @@
-# holidays.shiftmedical.com
-http://www.holidays.shiftmedical.com/
+# mdlc.shiftmedical.com
+http://www.mdlc.shiftmedical.com/

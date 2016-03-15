@@ -1,0 +1,28 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-bottom: 2rem;
+}
+
+.jumbotron {
+  background-color:#0B62ED;
+  color:darkblue;
+  margin-bottom:0px;
+}
+
+.fa {
+  color:white;
+}
+
+.container-wallpaper {
+  padding-top: 20px;
+  padding-bottom: 30px;
+	background-image: url(media/pattern-grid.jpg);
+	background-position: left top;
+	background-repeat: repeat;
+	background-size: 18px 18px;
+}
+
+.container {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
